@@ -8,8 +8,7 @@ export default class Counter extends Component {
     }
 
     incrementIfOdd() {
-        console.log('incrementIfOdd');
-        if (this.props.value % 2 != 0) {
+        if (this.props.value % 2 !== 0) {
             this.props.onIncrement()
         }
     }
@@ -19,24 +18,24 @@ export default class Counter extends Component {
     }
 
     render() {
-        const {value, onIncrement, onDecrement} = this.props
+        const { value, onIncrement, onDecrement } = this.props
         return (
             <p>
                 Clicked : {value} times
                 {' '}
-                <button onclick={onIncrement}>
+                <button onClick={onIncrement}>
                     +
                 </button>
                 {' '}
-                <button onclick={onDecrement}>
+                <button onClick={onDecrement}>
                     -
                 </button>
                 {' '}
-                <button onclick={this.incrementIfOdd}>
+                <button onClick={this.incrementIfOdd}>
                     Increment if odd
                 </button>
                 {' '}
-                <button onclick={this.incrementAsync}>
+                <button onClick={this.incrementAsync}>
                     Increment Async
                 </button>
             </p>
@@ -45,7 +44,7 @@ export default class Counter extends Component {
 }
 
 Counter.propsTypes = {
-    value : PropTypes.number.isRequired,
-    onIncrement:PropTypes.func.isRequired,
-    onDecrement:PropTypes.func.isRequired
+    value: PropTypes.number.isRequired,
+    onIncrement: PropTypes.func.isRequired,
+    onDecrement: PropTypes.func.isRequired
 }
