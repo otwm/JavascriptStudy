@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BootstrapTest/BootstrapTest.iml" filepath="$PROJECT_DIR$/BootstrapTest/BootstrapTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ReactJSTutorial2/ReactJSTutorial2.iml" filepath="$PROJECT_DIR$/ReactJSTutorial2/ReactJSTutorial2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ReactStarterKitTest/ReactStarterKitTest.iml" filepath="$PROJECT_DIR$/ReactStarterKitTest/ReactStarterKitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ReactTemplateTest/ReactTemplateTest.iml" filepath="$PROJECT_DIR$/ReactTemplateTest/ReactTemplateTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SettingUpReact/SettingUpReact.iml" filepath="$PROJECT_DIR$/SettingUpReact/SettingUpReact.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webpack/webpack.iml" filepath="$PROJECT_DIR$/webpack/webpack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavascriptStudy.iml" filepath="$PROJECT_DIR$/JavascriptStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/counter/counter.iml" filepath="$PROJECT_DIR$/counter/counter.iml" />
     </modules>
   </component>
 </project>
