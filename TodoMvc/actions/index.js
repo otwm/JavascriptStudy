@@ -1,5 +1,6 @@
 import * as types from '../constants/ActionTypes'
 
+
 export function addTodo(text) {
     return {type: types.ADD_TODO, text}
 }
@@ -16,10 +17,10 @@ export function completeTodo(id) {
     return {type: types.COMPLETE_TODO, id}
 }
 
-export function completeAll() {
+export function CompleteAll() {
     return {type: types.COMPLETE_ALL}
 }
 
-export function clearCompleted() {
-    return {type: types.CLEAR_COMPLETED}
+export function clearComplete() {
+    return {type: types.CLEAR_COMPLETE}
 }
