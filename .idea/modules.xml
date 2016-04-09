@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavascriptStudy.iml" filepath="$PROJECT_DIR$/JavascriptStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/async/async.iml" filepath="$PROJECT_DIR$/async/async.iml" />
     </modules>
   </component>
 </project>
